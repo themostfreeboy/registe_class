@@ -116,5 +116,6 @@ int main(int argc, char** argv) {
     } else {
         std::cout << "error_pointer is not nullptr, type name:" << typeid(*error_pointer).name() << std::endl;
     }
+
     return 0;
 }
